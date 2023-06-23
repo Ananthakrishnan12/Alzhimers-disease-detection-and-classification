@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Home Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+  <div class="jumbotron jumbotron-fluid" style="padding-top: 2%">
+    <div class="container">
+      <h1 class="display-4">Alzhimers Disease detection and classification</h1>
+      <p class="lead">RESULT</p>
+    </div>
+  </div>
+
+  <div>
+    <nav class="navbar bg-dark">
+      <ul class="nav navbar-nav navbar-expand-lg">
+     <li class style="color: black"><a href="{{ url_for('upload_image')}}"
+            style="color: whitesmoke; margin-left: 10px; margin-right: 10px"> Back</a></li>
+
+      
+
+    </nav>
+  </div>
+  
+ <p style=" font-size: 350%; text-align: center; padding-top: 10%">{% if prediction==0 %}
+ Mild_Demented
+ {% elif prediction==1%}
+ Moderate_Demented
+ {% elif prediction==2%}
+ Non_Demented
+ {% elif prediction==3%}
+ Very_Mild_Demented
+ 
+ {% endif %}</p>
+ 
+  
+
+  
+
+
+</body>
