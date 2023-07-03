@@ -42,7 +42,7 @@ def allowed_file(filename):
 # In[25]:
 
 
-model = load_model(r'E:\Ak\2023 projects Ak Backup\Alzhimers disease detection and classification\M-02\Model/Alzhimers.h5',compile=False)
+model = load_model(r'E:\Protfolio Projects\Machince Learning\Alzhimers disease detection and Classification\Notebook/Alzhimers.h5',compile=False)
 
 
 # In[26]:
