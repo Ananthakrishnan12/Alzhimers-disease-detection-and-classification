@@ -5,14 +5,15 @@ review some of the important literature on AD and explore how DL can help resear
 at its early stages.
 
 # Installation:
-# 1. Anaconda 2021
-# 2. Required Libaries:
-#    numpy==1.20.3
-#    matplotlib==3.4.3
-#    tensorflow==2.8.0
-#    keras==2.8.0
-#    opencv-python==4.5.5.62
+ 1. Anaconda 2021
+ 2. Required Libaries:
+    numpy==1.20.3
+    matplotlib==3.4.3
+    tensorflow==2.8.0
+    keras==2.8.0
+    opencv-python==4.5.5.62
 
-# Data Collection:  Dataset collected from Kaggle website:  source link: https://www.kaggle.com/datasets/tourist55/alzheimers-dataset-4-class-of-images
+# Data Collection:  
+    Dataset collected from Kaggle website:  source link: https://www.kaggle.com/datasets/tourist55/alzheimers-dataset-4-class-of-images
 
 # Project Descriptions:
