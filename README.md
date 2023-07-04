@@ -17,3 +17,30 @@ at its early stages.
     Dataset collected from Kaggle website:  source link: https://www.kaggle.com/datasets/tourist55/alzheimers-dataset-4-class-of-images
 
 # Project Descriptions:
+       No.of sample Images collected with classes: MildDemented = 717
+                                                   ModerateDemented = 52
+                                                   Non Demented = 2560
+                                                   Very Mild Demented = 1792
+                                                
+Collected Samples Images are like Unbalanced, so i have done Data Augumentation Method with Keras.preprocessing to increase the sample Images.
+
+After Augumentation Method the Sample Images MildDemented = 1739
+                                                   ModerateDemented = 1421
+                                                   Non Demented = 1753
+                                                   Very Mild Demented = 1747
+
+# Model Training:
+In this Model I have used Transfer Learning Method (InceptionV3):
+With Sample Images I have trained the Images with Batch_size=8 Epochs=50 and attained Training accuracy is 87% and Losses is 0.34%
+and Tested with same Epochs attained Testing Accuracy is 85% and Lossess is 0.34%
+
+# Model Deployment : (Flask)
+
+To run the app: Go to cmd (command prompt)
+
+run python app.py
+
+and upload the testing Images to check the Model detection... 
+
+
+
